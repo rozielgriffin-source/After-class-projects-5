@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS EMPLOYEES (
+    ROLL_NO TEXT PRIMARY KEY,
+    NAME TEXT NOT NULL,
+    ADDRESS TEXT,
+    PHONE TEXT,
+    AGE INTEGER
+);
+
+INSERT INTO EMPLOYEES( ROLL_NO, NAME, ADDRESS, PHONE, AGE) VALUES
+('1', 'JAYDEN', 'DELHI', '*******', 35),
+('2', 'ROZ', 'SAVANNAH', '*******', 34),
+('3', 'LOGAN', 'SAVANNAH', '*******', 27),
+('4', 'JONES', 'WASHINGTON', '*******', 27),
+('5', 'BARB', 'DELHI', '*******', 35),
+('6', 'JOSH', 'WASHINGTON', '*******', 19);
+
+SELECT * FROM EMPLOYEES;
